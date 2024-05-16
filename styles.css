@@ -26,9 +26,8 @@ a:hover, a:active {
 
 /* highlight a particular paragraph to attract a reader's attention */
 .highlight {
-  background-color: #333;
-  border: 1px solid #333;
-  color: yellow;
+  border: 2px dashed #333;
+  color: #333;
   padding: 10px;
 }
 
@@ -86,13 +85,14 @@ a:hover, a:active {
 
 /* Style the top navigation bar */
 .navbar {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
   display: flex;
-  background-color: #333;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  color: white;
+  color: #333;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -101,7 +101,7 @@ a:hover, a:active {
 /* Change color on hover */
 .navbar a:hover {
   background-color: #333;
-  color: yellow;
+  color: white;
 }
 
 .footer {
